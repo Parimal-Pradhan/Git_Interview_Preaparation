@@ -2,7 +2,9 @@
 
 ## What is Git & Github?
 Git : A distributed version control system (VCS) used for tracking changes in source code during software development.
+
 Github : A cloud-based platform that hosts Git repositories, providing features like collaboration, issue tracking, and CI/CD.
+
 ## Which git Version have you used in your project?
 The Git version depends on the project, but commonly used versions are Git 2.x.We can check git version using git --version
 ## Difference between Git and Github ?
