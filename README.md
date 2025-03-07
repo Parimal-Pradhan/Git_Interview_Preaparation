@@ -1,4 +1,4 @@
-# Git and Github Interview Qquestions and Answers
+# Git and Github Interview Questions and Answers
 
 ## What is Git & Github?
 Git : A distributed version control system (VCS) used for tracking changes in source code during software development.
