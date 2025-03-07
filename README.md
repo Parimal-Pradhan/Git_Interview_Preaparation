@@ -19,10 +19,18 @@ You start a new project and want to use Git.
 ### 💡 Example:
 ```
 mkdir my_project && cd my_project
-git init  # Initialize repository
-git commit -m "Initial commit"
+git init # Initialize repository
+touch test1.txt
+git status
+git add .
+git status
+git commit -m "initial commit"
+git log --oneline
 
 ```
+![gitrepo1](https://github.com/user-attachments/assets/6962dd58-8881-4e51-b093-7385f76d1f15)
+![gitrepo2](https://github.com/user-attachments/assets/70bdcb38-f104-433c-b856-025951d87de0)
+
 
 ## Difference between Git and Github ?
 
