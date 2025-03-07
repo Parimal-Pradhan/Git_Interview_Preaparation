@@ -1,9 +1,9 @@
 # Git and Github Interview Questions and Answers
 
 ## What is Git & Github?
-Git : A distributed version control system (VCS) used for tracking changes in source code during software development.
+Git : A distributed version control system (VCS) used for tracking changes in source code during software development.It is installed on the local machine.Git keeps track of the files you have edited so, if we want the previous code again we can revert it. once the code is done developer pushes the code into the central repository called Github.
 
-Github : A cloud-based platform that hosts Git repositories, providing features like collaboration, issue tracking, and CI/CD.
+Github : A cloud-based platform that hosts Git repositories, providing features like collaboration, issue tracking, and CI/CD.It store all project source code. Developers can pull the updated code from GitHub to the local machine where git is installed and start their work.
 
 ## Which git Version have you used in your project?
 The Git version depends on the project, but commonly used versions are Git 2.x.We can check git version using git --version
