@@ -34,9 +34,23 @@ git log --oneline
 
 ## Difference between Git and Github ?
 
+![What is Git (2)](https://github.com/user-attachments/assets/09fe20a0-ffad-4312-8a37-cba8ef07f2e2)
 
 ## What is CVCS and DVCS and Explain the difference.
+CVCS relies on a central server to store code, whereas DVCS allows every developer to have a complete copy of the project, making it faster and more reliable.
 
+![What is Git](https://github.com/user-attachments/assets/9f71f0b1-5843-4230-b37e-a8d5202cb522)
+
+![What is Git (1)](https://github.com/user-attachments/assets/dc08cc55-562c-4929-bc94-8aa636900c09)
+
+
+| Feature | CVCS (Centralized Version Control System)	 | DVCS (Distributed Version Control System) |
+|  :---: |   :---:    |    :---: |
+| ` What is it?	`   | A single central server stores the code, and all users access it.	     | Every developer has a full copy of the project history.    |
+| ` Dependency on Server `    | Needs an internet connection to work; if the server goes down, work stops.       | Can work offline because every user has a full copy.      |
+| ` Speed `   | Slower because every operation requires server communication.       | Faster since most operations are local.      |
+| ` Data Loss Risk `	    | High—if the server crashes, history can be lost.	       | Low—code history is available on every developer’s machine.      |
+| ` Examples	`   | SVN (Subversion), Perforce, CVS		       | Git, Mercurial      |
 
 ## Difference between git pull and git fetch ? 
 ## Difference between git pull and git clone 
