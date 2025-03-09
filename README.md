@@ -120,13 +120,11 @@ CVCS relies on a central server to store code, whereas DVCS allows every develop
   * You move files from the staging area to the commit area using git commit.
     
 🔹 **Example:**
-
     ```
     git commit -m "Added new feature"
     ```
       
 🔹 **Real-Life Example:**
-
       Submitting final homework after writing and reviewing it.
 
 ## 📌 What is git reset and git revert ? Explain the difference?
@@ -156,11 +154,10 @@ CVCS relies on a central server to store code, whereas DVCS allows every develop
   * Commit the resolved file.
 
  🔹 **Example:**
- 
-     ```
+  ```
      git add conflict-file.txt
      git commit -m "Resolved merge conflict"
-     ```
+  ```
 
 🔹 **Real-Life Example:**
 
