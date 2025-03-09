@@ -97,7 +97,7 @@ CVCS relies on a central server to store code, whereas DVCS allows every develop
 
 ## 📌 Explain git workflow or git Architecture? 
     
-    Git follows three areas:
+ * **Git follows three areas:**
 
   * **Working Directory** → Your local files.
   * **Staging Area** → Files ready to be committed (git add).
