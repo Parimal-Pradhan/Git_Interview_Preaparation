@@ -100,8 +100,27 @@ CVCS relies on a central server to store code, whereas DVCS allows every develop
  🔹 **Git follows three areas:**
 
   * **Working Directory** → Your local files.
+     * This is where you make changes to your files.
+     * It contains both tracked (modified/unmodified) and untracked files.
+     * Changes here are not yet added to Git.
+     * git status → Shows which files are modified in the working directory.
+       
   * **Staging Area** → Files ready to be committed (git add).
+     * A temporary area where you place changes before committing.
+     * Only staged files will be included in the next commit.
+     * git add <file> → Moves changes from the working area to the staging area.
+       
   * **Repository** → Where committed files are stored permanently (git commit).
+     * Stores committed changes permanently in the Git repository.
+     * Each commit represents a snapshot of your project.
+     * git commit -m "message" → Moves files from staging to the repository.
+     * git log → Shows commit history.
+     * git log --pretty=oneline
+    
+
+              ![What is Git (3)](https://github.com/user-attachments/assets/73677adc-e2d7-493f-b33f-8d292d7c2ffe)
+
+    
   
 ## 📌 What is git stash?
 
@@ -110,8 +129,8 @@ CVCS relies on a central server to store code, whereas DVCS allows every develop
     
 ## 📌  What is staging area?
 
-  * A place where files are prepared for commit.
-  * You add files to the staging area using git add.
+  * A temporary area where you place changes before committing.
+  * git add <file> → Moves changes from the working area to the **staging area.**
   
   
 ## 📌  What is commit area?
