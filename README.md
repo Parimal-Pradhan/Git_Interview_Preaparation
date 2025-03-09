@@ -120,6 +120,7 @@ CVCS relies on a central server to store code, whereas DVCS allows every develop
   * You move files from the staging area to the commit area using git commit.
     
 🔹 **Example:**
+
     ```
     git commit -m "Added new feature"
     ```
@@ -155,6 +156,7 @@ CVCS relies on a central server to store code, whereas DVCS allows every develop
   * Commit the resolved file.
 
  🔹 **Example:**
+ 
      ```
      git add conflict-file.txt
      git commit -m "Resolved merge conflict"
