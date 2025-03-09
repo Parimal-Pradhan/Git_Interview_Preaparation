@@ -62,7 +62,7 @@ CVCS relies on a central server to store code, whereas DVCS allows every develop
 * **git clone :**
     * git fetch only downloads changes without merging them.
 
-| Command | git pull  | git fetch |
+|  Command |   git pull  |  git fetch  |
 | ------------- | ------------- | ------------- |
 | What it does? | Downloads new changes from the remote repository and automatically merges them into your local branch.  | Only downloads new changes from the remote repository but does NOT merge them automatically.  |
 |Effect on Local Code| Updates your working directory immediately.	 | Doesn’t affect your working directory until you manually merge.  |
