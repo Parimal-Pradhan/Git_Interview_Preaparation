@@ -161,6 +161,10 @@ CVCS relies on a central server to store code, whereas DVCS allows every develop
      
        You sent a wrong message but sent another message to correct it, keeping both messages in chat history.
 
+ ![What is Git (5)](https://github.com/user-attachments/assets/bdcabc65-33ba-4035-8f2f-19a9ff0c8148)
+
+     
+
 ## 📌 What is branch in git? Explain branching strategy?
 
 
