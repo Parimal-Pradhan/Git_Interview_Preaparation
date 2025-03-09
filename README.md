@@ -237,6 +237,19 @@ CVCS relies on a central server to store code, whereas DVCS allows every develop
        git cherry-pick abc123
      ```
 
+## 📌 What are the types of Branches in Git?
+
+* Branches help developers work on changes safely without affecting the main project. They allow teams to add new features, fix bugs, and release updates smoothly.
+  
+  In Git, branches help us organize code changes. There are five main types of branches, each with a different role:
+
+ 1️⃣ **Master Branch (Main Branch)**
+ 2️⃣ Feature Branch (For New Features)
+ 3️⃣ Release Branch (For Final Testing)
+ 4️⃣ Hotfix Branch (For Urgent Fixes)
+ 5️⃣ Develop Branch (For Ongoing Development)
+
+
 
 ## 📌 How to recover deleted branch?
 
