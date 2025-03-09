@@ -208,7 +208,6 @@ CVCS relies on a central server to store code, whereas DVCS allows every develop
   **Example:**
      ```
        git cherry-pick abc123
-
      ```
 
 
@@ -226,4 +225,10 @@ git reflog  # Find the last commit hash
 git checkout -b f1 <commit-hash>
 ```
 ![reflog](https://github.com/user-attachments/assets/1fa964fa-f4a9-4317-b495-4013bdafe793)
+
+
+![thank-you-gif-5](https://github.com/user-attachments/assets/76ca83b3-dbc2-42b9-b57f-851204c2c6f4)
+
+
+
 
