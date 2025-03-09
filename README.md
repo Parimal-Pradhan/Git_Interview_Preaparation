@@ -156,10 +156,10 @@ CVCS relies on a central server to store code, whereas DVCS allows every develop
 
    * **git reset** → Erasing a sent WhatsApp message.
      
-       Imagine you sent a wrong message and deleted it permanently before anyone saw it.
+       * Imagine you sent a wrong message and deleted it permanently before anyone saw it.
    * **git revert** → Sending a correction message.
      
-       You sent a wrong message but sent another message to correct it, keeping both messages in chat history.
+       * You sent a wrong message but sent another message to correct it, keeping both messages in chat history.
 
  ![What is Git (5)](https://github.com/user-attachments/assets/bdcabc65-33ba-4035-8f2f-19a9ff0c8148)
 
