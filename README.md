@@ -82,6 +82,10 @@ CVCS relies on a central server to store code, whereas DVCS allows every develop
    * **git pull** → Downloading the latest messages in your WhatsApp group.
   
    * **git push** → Sending a new message to the WhatsApp group.
+
+![What is Git (4)](https://github.com/user-attachments/assets/1d528007-aee2-4ab8-b4d9-b8e67c837826)
+
+ 
     
 ## 📌 Difference between git fork and git clone ? 
 
