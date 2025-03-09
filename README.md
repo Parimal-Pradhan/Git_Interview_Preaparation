@@ -1,18 +1,18 @@
 # Git and Github Interview Questions and Answers
 
-## 1. What is Git & Github?
+## 📌 What is Git & Github?
 ### Git : 
 A distributed version control system (VCS) used for tracking changes in source code during software development.It is installed on the local machine.Git keeps track of the files you have edited so, if we want the previous code again we can revert it. once the code is done developer pushes the code into the central repository called Github.
 
 ### Github : 
 A cloud-based platform that hosts Git repositories, providing features like collaboration, issue tracking, and CI/CD.It store all project source code. Developers can pull the updated code from GitHub to the local machine where git is installed and start their work.
 
-## 2. Which git Version have you used in your project?
+## 📌 Which git Version have you used in your project?
 The Git version depends on the project, but commonly used versions are Git 2.x.We can check git version using 
 ```
 git --version
 ```
-## 3. How will you create a repository on local machine? Explain steps.
+## 📌 How will you create a repository on local machine? Explain steps.
 ### Scenario:
 You start a new project and want to use Git.
 
@@ -32,11 +32,11 @@ git log --oneline
 ![gitrepo2](https://github.com/user-attachments/assets/70bdcb38-f104-433c-b856-025951d87de0)
 
 
-## Difference between Git and Github ?
+## 📌 Difference between Git and Github ?
 
 ![What is Git (2)](https://github.com/user-attachments/assets/09fe20a0-ffad-4312-8a37-cba8ef07f2e2)
 
-## What is CVCS and DVCS and Explain the difference.
+## 📌 What is CVCS and DVCS and Explain the difference.
 CVCS relies on a central server to store code, whereas DVCS allows every developer to have a complete copy of the project, making it faster and more reliable.
 
 ![What is Git](https://github.com/user-attachments/assets/9f71f0b1-5843-4230-b37e-a8d5202cb522)
@@ -52,25 +52,174 @@ CVCS relies on a central server to store code, whereas DVCS allows every develop
 | ` Data Loss Risk `	    | High—if the server crashes, history can be lost.	       | Low—code history is available on every developer’s machine.      |
 | ` Examples	`   | SVN (Subversion), Perforce, CVS		       | Git, Mercurial      |
 
-## Difference between git pull and git fetch ? 
-## Difference between git pull and git clone 
-## Difference between git pull and git push ?
-## Difference between git fork and git clone ? 
+## 📌 Difference between git pull and git fetch ? 
 
-## What is head in git ?.
-## Explain git workflow or git Architecture? 
-## What is git stash?
-## What is staging area?
-## What is commit area?
-## What is git reset and git revert ? Explain the difference?
-## What is branch in git? Explain branching strategy?
-## what is git conflict?
-## What is git log? 
-## What is git Status?
-## How to ignore unwanted files while adding a files to staging area?
-## What is git merge and rebase?
-## What is git cherry pick?
-## How to recover deleted branch?
+![What is Git (2)](https://github.com/user-attachments/assets/6403d5f0-85f9-4e27-9a4e-90aeb710fcf9)
+
+* **git pull :**
+  * fetches and merges remote changes automatically
+    
+* **git clone :**
+    * git fetch only downloads changes without merging them.
+
+| Command | git pull  | git fetch |
+| ------------- | ------------- | ------------- |
+| What it does? | Downloads new changes from the remote repository and automatically merges them into your local branch.  | Only downloads new changes from the remote repository but does NOT merge them automatically.  |
+|Effect on Local Code| Updates your working directory immediately.	 | Doesn’t affect your working directory until you manually merge.  |
+|Use Case |When you want the latest changes and are ready to merge them into your work.	 | When you want to check for updates before merging. |
+|Command to Merge After Fetching|Not needed (pull does it automatically).	 | git merge origin/main (to apply fetched changes).  |
+|Risk |Can cause conflicts if your local changes conflict with remote updates.	 | Safer since it doesn’t change your working code immediately.  |
+
+## 📌 Difference between git pull and git clone ?
+   * **git clone :**
+     * copies an entire repository from remote to local for the first time. 
+   * **git pull :**
+     * updates an existing local repo with new changes from remote.
+
+## 📌 Difference between git pull and git push ?
+🔹 **Real-Life Example:**
+
+   * **git pull** → Downloading the latest messages in your WhatsApp group.
+  
+   * **git push** → Sending a new message to the WhatsApp group.
+    
+## 📌 Difference between git fork and git clone ? 
+
+🔹 **Real-Life Example:**
+
+   * **git fork** → Copying a Google Doc to your account but keeping the original separate.
+     
+   * **git clone** → Downloading a PDF from Google Drive to your computer.
+
+## 📌 What is head in git ?
+
+🔹 **HEAD** is the pointer to the latest commit in your current branch.When you commit changes, HEAD moves to the new commit.
+
+## 📌 Explain git workflow or git Architecture? 
+    
+    Git follows three areas:
+
+  * **Working Directory** → Your local files.
+  * **Staging Area** → Files ready to be committed (git add).
+  * **Repository** → Where committed files are stored permanently (git commit).
+  
+## 📌 What is git stash?
+
+  * git stash temporarily saves your uncommitted changes without **committing** them.
+  * Useful when you need to switch branches but don’t want to lose your work.
+    
+## 📌  What is staging area?
+
+  * A place where files are prepared for commit.
+  * You add files to the staging area using git add.
+  
+  
+## 📌  What is commit area?
+
+  * Stores permanent snapshots of your code history.
+  * You move files from the staging area to the commit area using git commit.
+    
+🔹 **Example:**
+    ```
+    git commit -m "Added new feature"
+    ```
+      
+🔹 **Real-Life Example:**
+
+      Submitting final homework after writing and reviewing it.
+
+## 📌 What is git reset and git revert ? Explain the difference?
+
+🔹 **Real-Life Example:**
+
+   * **git reset** → Erasing a sent WhatsApp message.
+     
+       Imagine you sent a wrong message and deleted it permanently before anyone saw it.
+   * **git revert** → Sending a correction message.
+     
+       You sent a wrong message but sent another message to correct it, keeping both messages in chat history.
+
+## 📌 What is branch in git? Explain branching strategy?
+
+
+
+## 📌 what is git conflict?
+
+* A Git conflict happens when two people change the same part of a file.
+* To resolve it:
+
+  * Open the conflicted file.
+  
+  * Choose which version to keep.
+  
+  * Commit the resolved file.
+
+ 🔹 **Example:**
+     ```
+     git add conflict-file.txt
+     git commit -m "Resolved merge conflict"
+     ```
+
+🔹 **Real-Life Example:**
+
+    Two people editing the same Google Doc without seeing each other’s changes.
+
+
+## 📌 What is git log? 
+
+  * **Shows the history of commits.**
+    
+   **Example:**
+     ```
+       git log --oneline
+     ```
+🔹 **Real-Life Example:**
+
+      Checking your browser history.
+
+
+
+## 📌 What is git Status?
+
+  * Shows the current state of your repo (staged, unstaged, untracked files).
+   
+  **Example:**
+     ```
+       git status
+     ```
+🔹 **Real-Life Example:**
+
+  Checking your **to-do list** before submitting work.
+
+
+## 📌 How to ignore unwanted files while adding a files to staging area?
+
+  * Use a .gitignore file to exclude files from Git tracking.
+
+## 📌 What is git merge and rebase?
+
+🔹 **Real-Life Example:**
+
+  * **git merge** → Mixing two paint colors.
+  * **git rebase** → Lining up dominoes neatly.
+
+## 📌 What is git cherry pick?
+  * Picks a specific commit from another branch.
+    
+  **Example:**
+     ```
+       git cherry-pick abc123
+
+     ```
+
+
+## 📌 How to recover deleted branch?
+
+🔹 **Real-Life Example:**
+
+ * Restoring a **deleted photo** from the recycle bin.
+
+
 ## Scenario:
 You accidentally deleted your f1 branch.
 ```
