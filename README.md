@@ -118,7 +118,7 @@ CVCS relies on a central server to store code, whereas DVCS allows every develop
      * git log --pretty=oneline
     
 
-              ![What is Git (3)](https://github.com/user-attachments/assets/73677adc-e2d7-493f-b33f-8d292d7c2ffe)
+       ![What is Git (3)](https://github.com/user-attachments/assets/73677adc-e2d7-493f-b33f-8d292d7c2ffe)
 
     
   
