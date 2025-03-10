@@ -89,6 +89,20 @@ CVCS relies on a central server to store code, whereas DVCS allows every develop
     
 ## 📌 Difference between git fork and git clone ? 
 
+| Feature |Git Fork		 | Git Clone |
+|  :---: |   :---:    |    :---: |
+| ` What it does?		`   | Creates a copy of a repository in your GitHub account.		     | Creates a local copy of a repository on your computer.  |
+| ` Where is the copy created?	 `    |On GitHub (remote).	       | On your local machine.      |
+| ` Connection to the original repository?	 `   | Stays connected but does not affect the original repo.	  | Directly connected to the original repo.      |
+| ` Use Case?	 `	    |When you want to contribute to a project but don’t have direct access.	       | When you want to work on a project locally.   |
+| ` Command Example		`   | Click "Fork" button on GitHub.			       | git clone <repo_url>     |
+
+**When to Use What?**
+
+✔️ Use Fork → When you don’t have permission to edit the original repo (e.g., contributing to open-source projects).
+
+✔️ Use Clone → When you have access to the repository and need to work on it locally.
+
 🔹 **Real-Life Example:**
 
    * **git fork** → Copying a Google Doc to your account but keeping the original separate.
