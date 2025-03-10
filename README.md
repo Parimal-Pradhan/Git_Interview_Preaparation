@@ -199,12 +199,11 @@ CVCS relies on a central server to store code, whereas DVCS allows every develop
      ```
        git log --oneline
      ```
+     
 🔹 **Real-Life Example:**
 
 
       Checking your browser history.
-
-
 
 ## 📌 What is git Status?
 
